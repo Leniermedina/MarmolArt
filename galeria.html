@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MarmolArt - Galería</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1 data-i18n="site_name">MarmolArt</h1>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html" data-i18n="nav_home">Inicio</a></li>
+                    <li><a href="galeria.html" data-i18n="nav_gallery">Galería</a></li>
+                    <li><a href="contacto.html" data-i18n="nav_contact">Contacto</a></li>
+                </ul>
+            </nav>
+            <div class="theme-lang">
+                <button id="theme-toggle" aria-label="Cambiar tema">🌙</button>
+                <button id="lang-toggle" aria-label="Cambiar idioma">🇬🇧</button>
+            </div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <div class="container">
+                <h1 data-i18n="gallery_title">Nuestros trabajos</h1>
+                <p data-i18n="gallery_subtitle">Selección de proyectos realizados con mármol de alta calidad.</p>
+            </div>
+        </section>
+
+        <section class="gallery">
+            <div class="container">
+                <div class="gallery-grid" id="gallery-grid">
+                    <!-- Las imágenes se cargarán dinámicamente con JS, pero también podemos poner HTML estático -->
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p data-i18n="footer_text">&copy; 2025 MarmolArt. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/galeria.js"></script>
+</body>
+</html>

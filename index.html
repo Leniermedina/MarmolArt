@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MarmolArt - Inicio</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1 data-i18n="site_name">MarmolArt</h1>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html" data-i18n="nav_home">Inicio</a></li>
+                    <li><a href="galeria.html" data-i18n="nav_gallery">Galería</a></li>
+                    <li><a href="contacto.html" data-i18n="nav_contact">Contacto</a></li>
+                </ul>
+            </nav>
+            <div class="theme-lang">
+                <button id="theme-toggle" aria-label="Cambiar tema">🌙</button>
+                <button id="lang-toggle" aria-label="Cambiar idioma">🇬🇧</button>
+            </div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Slider automático -->
+        <section class="slider">
+            <div class="slide active">
+                <img src="images/hero1.jpg" alt="Mármol elegante">
+                <div class="slide-content">
+                    <h2 data-i18n="slide1_title">Transformamos tus espacios</h2>
+                    <p data-i18n="slide1_text">La belleza eterna del mármol para tu hogar o negocio.</p>
+                    <a href="contacto.html" class="btn" data-i18n="slide1_btn">Solicita presupuesto</a>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="images/hero2.jpg" alt="Baño de mármol">
+                <div class="slide-content">
+                    <h2 data-i18n="slide2_title">Diseño y durabilidad</h2>
+                    <p data-i18n="slide2_text">Cada pieza es única, creada para perdurar.</p>
+                    <a href="galeria.html" class="btn" data-i18n="slide2_btn">Ver trabajos</a>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="images/hero3.jpg" alt="Meseta de mármol">
+                <div class="slide-content">
+                    <h2 data-i18n="slide3_title">Arte en piedra</h2>
+                    <p data-i18n="slide3_text">Más de 10 años de experiencia en construcciones de mármol.</p>
+                    <a href="contacto.html" class="btn" data-i18n="slide3_btn">Contacta ahora</a>
+                </div>
+            </div>
+            <button class="slider-prev">&#10094;</button>
+            <button class="slider-next">&#10095;</button>
+            <div class="slider-dots"></div>
+        </section>
+
+        <!-- Bloques de imágenes con texto (scroll reveal) -->
+        <section class="bloques">
+            <div class="container reveal">
+                <div class="bloque">
+                    <img src="images/bloque1.jpg" alt="Piso de mármol">
+                    <div class="bloque-texto">
+                        <h3 data-i18n="bloque1_titulo">Pisos que enamoran</h3>
+                        <p data-i18n="bloque1_desc">Brillo y elegancia en cada paso. Nuestros pisos de mármol son sinónimo de lujo y resistencia.</p>
+                        <a href="galeria.html?categoria=pisos" class="btn-secondary" data-i18n="ver_mas">Ver más</a>
+                    </div>
+                </div>
+                <div class="bloque reverse">
+                    <img src="images/bloque2.jpg" alt="Baño de mármol">
+                    <div class="bloque-texto">
+                        <h3 data-i18n="bloque2_titulo">Baños de ensueño</h3>
+                        <p data-i18n="bloque2_desc">Convierte tu baño en un spa personal con nuestras mesetas y revestimientos de mármol.</p>
+                        <a href="galeria.html?categoria=banos" class="btn-secondary" data-i18n="ver_mas">Ver más</a>
+                    </div>
+                </div>
+                <div class="bloque">
+                    <img src="images/bloque3.jpg" alt="Meseta de mármol">
+                    <div class="bloque-texto">
+                        <h3 data-i18n="bloque3_titulo">Mesetas únicas</h3>
+                        <p data-i18n="bloque3_desc">Diseños personalizados para cocinas, comedores o recibidores. La funcionalidad hecha arte.</p>
+                        <a href="galeria.html?categoria=mesetas" class="btn-secondary" data-i18n="ver_mas">Ver más</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Llamada final (motivacional) -->
+        <section class="cta">
+            <div class="container">
+                <h2 data-i18n="cta_title">¿Listo para transformar tu espacio?</h2>
+                <p data-i18n="cta_text">Déjanos tus datos y te asesoramos sin compromiso.</p>
+                <a href="contacto.html" class="btn" data-i18n="cta_btn">Solicitar información</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p data-i18n="footer_text">&copy; 2025 MarmolArt. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

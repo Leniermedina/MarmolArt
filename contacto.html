@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MarmolArt - Contacto</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1 data-i18n="site_name">MarmolArt</h1>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html" data-i18n="nav_home">Inicio</a></li>
+                    <li><a href="galeria.html" data-i18n="nav_gallery">Galería</a></li>
+                    <li><a href="contacto.html" data-i18n="nav_contact">Contacto</a></li>
+                </ul>
+            </nav>
+            <div class="theme-lang">
+                <button id="theme-toggle" aria-label="Cambiar tema">🌙</button>
+                <button id="lang-toggle" aria-label="Cambiar idioma">🇬🇧</button>
+            </div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <div class="container">
+                <h1 data-i18n="contact_title">Contáctanos</h1>
+                <p data-i18n="contact_subtitle">Estamos aquí para ayudarte. Envíanos tu consulta.</p>
+            </div>
+        </section>
+
+        <section class="contact-form">
+            <div class="container">
+                <form id="contactForm">
+                    <div class="form-group">
+                        <label for="nombre" data-i18n="form_nombre">Nombre *</label>
+                        <input type="text" id="nombre" name="nombre" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="apellidos" data-i18n="form_apellidos">Apellidos *</label>
+                        <input type="text" id="apellidos" name="apellidos" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="direccion" data-i18n="form_direccion">Dirección *</label>
+                        <input type="text" id="direccion" name="direccion" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="mensaje" data-i18n="form_mensaje">Mensaje *</label>
+                        <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn" data-i18n="form_enviar">Enviar por WhatsApp</button>
+                </form>
+                <p id="form-message" class="form-message"></p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p data-i18n="footer_text">&copy; 2025 MarmolArt. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/contacto.js"></script>
+</body>
+</html>

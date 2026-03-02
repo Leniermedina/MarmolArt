@@ -31,5 +31,10 @@
     "form_apellidos": "Last name *",
     "form_direccion": "Address *",
     "form_mensaje": "Message *",
-    "form_enviar": "Send via WhatsApp"
+    "form_enviar": "Send via WhatsApp",
+    "motivation_title": "Inspiration in marble",
+    "motivacion1": "Marble doesn't just decorate, it transforms emotions.",
+    "motivacion2": "Each vein tells a story millions of years old.",
+    "motivacion3": "Spaces that inspire, created to endure.",
+    "motivacion4": "Nature sculpts, we enhance."
 }

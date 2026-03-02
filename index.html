@@ -274,51 +274,6 @@
             background: white;
         }
 
-        /* ===== BLOQUES (SCROLL REVEAL) ===== */
-        .bloques {
-            padding: 80px 0;
-        }
-
-        .bloque {
-            display: flex;
-            align-items: center;
-            gap: 50px;
-            margin-bottom: 80px;
-            opacity: 0;
-            transform: translateY(30px);
-            transition: opacity 0.8s ease, transform 0.8s ease;
-        }
-
-        .bloque.reveal.active {
-            opacity: 1;
-            transform: translateY(0);
-        }
-
-        .bloque.reverse {
-            flex-direction: row-reverse;
-        }
-
-        .bloque img {
-            width: 50%;
-            border-radius: var(--borde-radio);
-            box-shadow: var(--sombra);
-        }
-
-        .bloque-texto {
-            width: 50%;
-        }
-
-        .bloque-texto h3 {
-            font-size: 2rem;
-            margin-bottom: 20px;
-            color: var(--color-primario);
-        }
-
-        .bloque-texto p {
-            margin-bottom: 25px;
-            font-size: 1.1rem;
-        }
-
         /* ===== NUEVA SECCIÓN MOTIVACIONAL ===== */
         .motivation {
             padding: 60px 0 80px;
@@ -451,20 +406,6 @@
                 font-size: 1.8rem;
             }
 
-            .bloque {
-                flex-direction: column;
-                gap: 30px;
-            }
-
-            .bloque.reverse {
-                flex-direction: column;
-            }
-
-            .bloque img,
-            .bloque-texto {
-                width: 100%;
-            }
-
             .cta h2 {
                 font-size: 2rem;
             }
@@ -554,37 +495,7 @@
             <div class="slider-dots"></div>
         </section>
 
-        <!-- Bloques de imágenes con texto (scroll reveal) -->
-        <section class="bloques">
-            <div class="container reveal">
-                <div class="bloque">
-                    <img src="images/bloque1.jpg" alt="Piso de mármol">
-                    <div class="bloque-texto">
-                        <h3 data-i18n="bloque1_titulo">Pisos que enamoran</h3>
-                        <p data-i18n="bloque1_desc">Brillo y elegancia en cada paso. Nuestros pisos de mármol son sinónimo de lujo y resistencia.</p>
-                        <a href="galeria.html?categoria=pisos" class="btn-secondary" data-i18n="ver_mas">Ver más</a>
-                    </div>
-                </div>
-                <div class="bloque reverse">
-                    <img src="images/bloque2.jpg" alt="Baño de mármol">
-                    <div class="bloque-texto">
-                        <h3 data-i18n="bloque2_titulo">Baños de ensueño</h3>
-                        <p data-i18n="bloque2_desc">Convierte tu baño en un spa personal con nuestras mesetas y revestimientos de mármol.</p>
-                        <a href="galeria.html?categoria=banos" class="btn-secondary" data-i18n="ver_mas">Ver más</a>
-                    </div>
-                </div>
-                <div class="bloque">
-                    <img src="images/bloque3.jpg" alt="Meseta de mármol">
-                    <div class="bloque-texto">
-                        <h3 data-i18n="bloque3_titulo">Mesetas únicas</h3>
-                        <p data-i18n="bloque3_desc">Diseños personalizados para cocinas, comedores o recibidores. La funcionalidad hecha arte.</p>
-                        <a href="galeria.html?categoria=mesetas" class="btn-secondary" data-i18n="ver_mas">Ver más</a>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- NUEVA SECCIÓN MOTIVACIONAL -->
+        <!-- SECCIÓN MOTIVACIONAL (4 mensajes con imagen) -->
         <section class="motivation">
             <div class="container">
                 <h2 class="section-title" data-i18n="motivation_title">Inspiración en mármol</h2>

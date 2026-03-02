@@ -31,5 +31,10 @@
     "form_apellidos": "Apellidos *",
     "form_direccion": "Dirección *",
     "form_mensaje": "Mensaje *",
-    "form_enviar": "Enviar por WhatsApp"
+    "form_enviar": "Enviar por WhatsApp",
+    "motivation_title": "Inspiración en mármol",
+    "motivacion1": "El mármol no solo decora, transforma emociones.",
+    "motivacion2": "Cada veta cuenta una historia de millones de años.",
+    "motivacion3": "Espacios que inspiran, creados para perdurar.",
+    "motivacion4": "La naturaleza esculpe, nosotros realzamos."
 }
